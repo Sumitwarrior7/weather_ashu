@@ -3,7 +3,7 @@
  */
 
  'use strict';
- const api_key = "59bc0b7f129bb628388f76880846fc49";
+ const api_key = "";
  
  export const fetchData = function(URL, callback) {
      fetch(`${URL}&appid=${api_key}`)
